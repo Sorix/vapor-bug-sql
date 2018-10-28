@@ -1,0 +1,18 @@
+{
+	"name": "Bug test",
+	"addons": [
+		"heroku-postgresql:hobby-dev"
+	],
+	"buildpacks": [
+		{
+			"url": "https://github.com/vapor-community/heroku-buildpack"
+		}
+	],
+	"env": {
+		"ENV_TYPE": {
+			"description": "Environment type. Valid values are: `production`, `development`",
+			"required": false,
+			"value": "production"
+		}
+	}
+}

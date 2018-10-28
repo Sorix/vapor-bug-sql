@@ -1,4 +1,0 @@
-module CCryptoOpenSSL {
-    umbrella "/Users/vasily/Documents/test-sql/.build/checkouts/crypto.git-6800197952270312367/Sources/CCryptoOpenSSL/include"
-    export *
-}
