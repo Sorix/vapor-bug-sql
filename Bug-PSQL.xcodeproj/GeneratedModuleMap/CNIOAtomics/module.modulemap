@@ -1,0 +1,4 @@
+module CNIOAtomics {
+    umbrella "/Users/vasily/Documents/test-sql/.build/checkouts/swift-nio.git--431933775835307286/Sources/CNIOAtomics/include"
+    export *
+}
