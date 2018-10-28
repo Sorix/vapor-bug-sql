@@ -62,6 +62,13 @@
             ReferencedContainer = "container:Bug-PSQL.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "DATABASE_URL"
+            value = "postgres://lfjnmjldhmzmla:c2943e37090d812d0bab5dd115b68da2c3e7fcd8909872f357499b7459a1cdae@ec2-54-246-86-167.eu-west-1.compute.amazonaws.com:5432/d9lgv1t3p81f8i"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
